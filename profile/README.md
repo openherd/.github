@@ -22,6 +22,7 @@ No servers. No sign-ups. No surveillance.
 | [`relay`](https://github.com/openherd/relay)     | **Minimal HTTP relay server** for low-resource deployments. Great for Raspberry Pis, dead drops, or public mesh networks. No libp2p required.                  |
 | [`beacon`](https://github.com/openherd/beacon)   | **Public directory for relays.** Relays can advertise themselves here (with optional PoW) for global discovery and indexing.                                   |
 | [`meadow`](https://github.com/openherd/meadow)   | **A full PWA OpenHerd client** that runs entirely in the browser. No install, no backend, just one pure decentralized application.                                       |
+| [`sprout`](https://github.com/openherd/sprout) | **MicroPython version of `relay`** designed for very constrained devices. It works and makes necessary compromises, but it's currently in **alpha** and not ready for production. |
 | [`spec`](https://github.com/openherd/spec)       | 📜 **The full protocol specification.** Covers everything from message formats to chunking, PGP signing, and sync logic. The source of truth.                  |
 
 
