@@ -4,12 +4,12 @@
 
 ## What It Does
 
-- **Hyperlocal posts** — Messages are tied to coordinates, like an anonymous Yik Yak over mesh or Wi-Fi.
-- **End-to-end anonymous** — Each post uses a fresh PGP key, with no persistent identity.
-- **P2P-first** — Uses [libp2p](https://libp2p.io) for decentralized pubsub and direct connections.
-- **Relays and Dead Drops** — Lightweight HTTP-only nodes (relays) can store posts without needing libp2p.
-- **Beacon Network** — Relays can optionally register to a global directory for discoverability.
-- **Offline-first sync** — Devices can sync messages directly or through relays, even without internet.
+- Messages are tied to coordinates, like an anonymous Yik Yak over mesh or Wi-Fi.
+- Each post uses a fresh PGP key, with no persistent identity.
+- Uses [libp2p](https://libp2p.io) for decentralized pubsub and direct connections.
+- You can use lightweight HTTP-only nodes (relays) can store posts without needing libp2p.
+- Relays can optionally register to a global directory for discoverability.
+- Devices can sync messages directly or through relays, even without internet.
 
 If you just want to know what to use, [you can just go to our Pasture instance](https://pasture.openherd.network)
 
